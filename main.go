@@ -38,5 +38,5 @@ func main() {
 	}
 	app := newApp(static)
 
-	app.Run(iris.TLS("127.0.0.1:"+port, cert, key))
+	app.Run(iris.TLS("0.0.0.0:"+port, "/keys/"+cert, "/keys/"+key))
 }

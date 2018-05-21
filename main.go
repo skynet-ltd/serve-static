@@ -34,5 +34,5 @@ func main() {
 	}
 	app := newApp(static)
 
-	app.Run(iris.TLS("0.0.0.0:443", "/keys/"+cert, "/keys/"+key))
+	app.Run(iris.TLS("0.0.0.0:443", cert, key))
 }

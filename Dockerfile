@@ -4,8 +4,8 @@ ENV APP_DIR=${GOPATH}/src/app
 WORKDIR ${APP_DIR}
 VOLUME [ "/keys","/public" ]
 
-ENV TLS_CERT=host.crt
-ENV TLS_KEY=host.key
+ENV TLS_CERT=/keys/host.crt
+ENV TLS_KEY=/keys/host.key
 ENV APP_DIR=/public
 
 COPY . .

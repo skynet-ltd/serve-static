@@ -11,7 +11,7 @@
   branch = "master"
   name = "github.com/Joker/jade"
   packages = ["."]
-  revision = "b6dd4ee919ca1c60a97e27b16868a5223f32033b"
+  revision = "8828253bfc54f2f91aaef5f32b44a244b0a98e4f"
 
 [[projects]]
   branch = "master"
@@ -61,7 +61,7 @@
   branch = "master"
   name = "github.com/json-iterator/go"
   packages = ["."]
-  revision = "f89479f5c0d83b365504d632ab57390447bb406a"
+  revision = "2ddf6d758266fcb080a4f9e054b9f292c85e6798"
 
 [[projects]]
   branch = "master"
@@ -105,8 +105,8 @@
     "middleware/recover",
     "view"
   ]
-  revision = "41b17aca9ec493f6eedf17c0e5545cf134f2d445"
-  version = "v10.5.0"
+  revision = "c022b7a71255aef4412c06540ee9dfacd36b03f8"
+  version = "v10.6.4"
 
 [[projects]]
   branch = "master"
@@ -115,7 +115,7 @@
     ".",
     "terminal"
   ]
-  revision = "825e39f34365e7db2c9fbc3692c16220e3bd7418"
+  revision = "a9733b5b6b83d32b479aacd51d26ef6018261963"
 
 [[projects]]
   name = "github.com/kataras/survey"
@@ -187,10 +187,10 @@
   revision = "abc90934186a77966e2beeac62ed966aac0561d5"
 
 [[projects]]
+  branch = "master"
   name = "github.com/satori/go.uuid"
   packages = ["."]
-  revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
-  version = "v1.2.0"
+  revision = "36e9d2ebbde5e3f13ab2e25625fd453271d6522e"
 
 [[projects]]
   branch = "master"
@@ -205,7 +205,7 @@
     "acme",
     "acme/autocert"
   ]
-  revision = "d6449816ce06963d9d136eee5a56fca5b0616e7e"
+  revision = "1a580b3eff7814fc9b40602fd35256c63b50f491"
 
 [[projects]]
   branch = "master"
@@ -214,13 +214,13 @@
     "html",
     "html/atom"
   ]
-  revision = "61147c48b25b599e5b561d2e9c4f3e1ef489ca41"
+  revision = "57065200b4b034a1c8ad54ff77069408c2218ae6"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "2281fa97ef7b0c26324634d5a22f04babdac8713"
+  revision = "7c87d13f8e835d2fb3a70a2912c811ed0c1d241b"
 
 [[projects]]
   name = "gopkg.in/AlecAivazis/survey.v1"
@@ -235,7 +235,7 @@
   branch = "v2"
   name = "gopkg.in/russross/blackfriday.v2"
   packages = ["."]
-  revision = "c455fd41c6baf2f78fd7ff0aadc4e4b4d52698b0"
+  revision = "3420fef03359a232d74c2ac1d237ac357cfca298"
 
 [[projects]]
   name = "gopkg.in/yaml.v2"

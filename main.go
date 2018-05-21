@@ -20,10 +20,6 @@ func newApp(public string) *iris.Application {
 }
 
 func main() {
-	port := os.Getenv("APP_PORT")
-	if port == "" {
-		log.Fatal("APP_PORT variable is not set")
-	}
 	static := os.Getenv("APP_DIR")
 	if static == "" {
 		log.Fatal("APP_DIR variable is not set")
@@ -38,5 +34,5 @@ func main() {
 	}
 	app := newApp(static)
 
-	app.Run(iris.TLS("0.0.0.0:"+port, "/keys/"+cert, "/keys/"+key))
+	app.Run(iris.TLS("0.0.0.0:443", "/keys/"+cert, "/keys/"+key))
 }
